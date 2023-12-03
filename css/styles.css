@@ -17,7 +17,7 @@ header{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
 }
 .menu{
     display: flex;
@@ -291,6 +291,8 @@ footer{
     align-items: center;
     margin: 50px 0px;
     padding: 40px;
+    background-color: #46d5ee;
+    border-radius: 40px;
 }
 .form {
     width: 300px;
@@ -298,6 +300,7 @@ footer{
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0px 100px;
+    background-color: #ffffff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
@@ -327,4 +330,36 @@ footer{
 
 .contacto button:hover {
     background-color: #45a049;
+}
+.redes{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#0d192c;
+    transition: font-size .5s, color .3s;
+}
+.fb{
+    color:#0d192c;
+    transition: font-size .5s, color .3s;
+}
+.fb:hover{
+    color: #105cd4;
+    transition: font-size .5s, color .3s;
+}
+.gl{
+    color:#0d192c;
+    transition: font-size .5s, color .3s;
+}
+.gl:hover{
+    color: #d41010;
+    transition: font-size .5s, color .3s;
+}
+.wh{
+    color:#0d192c;
+    transition: font-size .5s, color .3s;
+}
+.wh:hover{
+    color: #20d410;
+    transition: font-size .5s, color .3s;
 }
