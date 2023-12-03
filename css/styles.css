@@ -133,6 +133,8 @@ header{
 }
 .contprod div{
     margin: 10px 80px;
+    overflow: hidden;
+    background-image: url("/img/imgArduinoprod.png");
     width: 10vw;
     padding: 20px;
     text-align: center;
@@ -153,4 +155,176 @@ footer{
     height: 40px;
     color: red;
     text-align: center;
+}
+
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*aqui para la tarjeta de productos*/
+.tarjeta{
+    width: 60vh;
+    height: 40vh;
+    overflow: hidden;
+    margin: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.productos .t1{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.productos .t1:hover{
+    background-color:#FF3131; /* Nuevo color de fondo al hacer hover (azul claro) */
+    color: #ffffff;
+}
+.prcontt .i1{
+    color: #0d192c; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.t1:hover .i1{
+    color: #105cd4; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.productos .t2{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.productos .t2:hover{
+    background-color:#FFDE05; /* Nuevo color de fondo al hacer hover (azul claro) */
+    color: #ffffff;
+}
+.prcontt .i2{
+    color: #0d192c; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.t2:hover .i2{
+    color: #ff0505; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.productos .t3{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.productos .t3:hover{
+    background-color:#00BF63; /* Nuevo color de fondo al hacer hover (azul claro) */
+    color: #ffffff;
+}
+.prcontt .i3{
+    color: #0d192c; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.t3:hover .i3{
+    color: #fffb05; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.productos .t4{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.productos .t4:hover{
+    background-color:#0097B2; /* Nuevo color de fondo al hacer hover (azul claro) */
+    color: #ffffff;
+}
+.prcontt .i4{
+    color: #0d192c; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.t4:hover .i4{
+    color: #37ff05; 
+    font-size: 80px;
+    transition: font-size .5s, color .3s;
+}
+.producto{
+    
+    height: 258px;
+    border-bottom-right-radius: 100%;
+    padding: 50px 30px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.producto button{
+    margin-top: 30px;
+    font-style: italic;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-style: none;
+}
+.prcontt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.producto i{
+    font-size: larger;
+    margin: 0px 10px;
+    text-align: center;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 40px;
+}
+.form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacto input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.contacto textarea {
+    resize: none;
+    height: 130px;
+}
+.contacto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #45a049;
 }
