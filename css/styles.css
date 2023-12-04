@@ -26,7 +26,7 @@ header{
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     position: sticky;
-   
+    background-color: #fff;
 }
 .menu img{
     width: 50vh;
@@ -59,17 +59,17 @@ header{
     align-items: center;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    background-color: #0097B2;
+    background-color: #012E40;
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
-    
+    color: #ffffff;
 
 }
 .bienvenido .b1{
     text-align: center;
     width: 550px;
     margin: 50px 130px;
-    
+    color: #ffffff; /* Texto blanco */
 }
 .imgs {
     display: flex;
@@ -148,14 +148,14 @@ header{
 
 
 
-footer{
+/*footer{
     background-color: black;
     bottom: 0;
     width: 100%;
     height: 40px;
     color: red;
     text-align: center;
-}
+}*/
 
 
 .tarjetas{
@@ -321,7 +321,7 @@ footer{
 }
 .contacto button {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px 15px;
     border: none;
     border-radius: 3px;
@@ -362,4 +362,32 @@ footer{
 .wh:hover{
     color: #20d410;
     transition: font-size .5s, color .3s;
+}
+footer{
+    text-align: center;
+    padding: 20px 0px;
+}
+footer img:hover{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.linf{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+}
+.linf ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 9vh;
+    margin: 20px 0px;
+}
+.linf li{
+    margin: 20px;
+    
+}
+.linf a{
+    text-decoration: none;
+    color: black;
 }
