@@ -19,6 +19,7 @@ header{
     width: 100%;
     /*font-family: 'Poppins', sans-serif;*/
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -415,12 +416,29 @@ footer img:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px;
+    padding: 10px;
 }
 .fotsep{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.prodim1 {
+    width: 98vh;
+}
+.prodim2 {
+    width: 69vh;
+}
+.prodim3 {
+    width: 60vh;
+    padding: 0px 50px;
+}
+.prodim4 {
+    width: 60vh;
+    padding: 0px 70px;
+}
+.descripcion{
+    margin: 0px 50px;
 }
 .error {
     display: flex;
@@ -439,4 +457,7 @@ footer img:hover{
     color: #105cd4;
     text-decoration: none;
     transition: color 1s;
+}
+.errorimg {
+    width: 135px;
 }
