@@ -1,0 +1,9 @@
+{
+    "productos": [
+      { "id": 1, "nombre": "Domótica en tu hogar", "descripcion": "Aqui pondremos la descripcion de la domotica y del servicio", "precio": 19.99 },
+      { "id": 2, "nombre": "Software", "descripcion": "Desarrollo de software personalizado para optimizar tus procesos.", "precio": 29.99, "imagen": "/img/logo.png" },
+      { "id": 3, "nombre": "Asistencia Técnica", "descripcion": "Servicios de asistencia técnica y soporte para tus dispositivos y sistemas.", "precio": 39.99 },
+      { "id": 4, "nombre": "Reparación de Equipos", "descripcion": "Reparación y mantenimiento de equipos electrónicos y tecnológicos.", "precio": 49.99 }
+    ]
+  }
+  

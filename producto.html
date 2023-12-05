@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="description" content="Automatiza, simplifica y vive con las soluciones innovadoras de Int Digital Solutions. Desarrollo de tecnología y domótica para hogares inteligentes.">
+    <meta name="keywords" content="Int Digital Solutions, domótica, tecnología, hogar inteligente, automatización, software, asistencia técnica">
+    <meta name="author" content="Int Digital Solutions©">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#105cd4" />
+    <link rel="icon" href="/img/ico.ico" sizes="16*16">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Nuestros Productos | IntDigital Solutions</title>
+</head>
+<body>
+    <div  class="menu">
+        <img src="/img/logo.png" alt="Logo de la empresa Int Digital solutions">
+        <nav>
+            <ul>
+                <li>
+                    <a rel="nofollow" href="#menu">Inicio</a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="#sobre">Sobre IntDigital</a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="#productos">Productos</a>
+                </li>
+                <li>
+                    <a rel="nofollow" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="pagprod">
+        <h1>Detalles del Producto</h1>
+        <div id="producto-detalles"></div>
+    </div>
+    
+    <footer>
+        <hr>
+        <div class="fotsep">
+            <div>
+                <div class="linf">
+                    <ul>
+                        <li>
+                            <a rel="nofollow" href="#menu">Inicio</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="#sobre">Sobre IntDigital</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="#productos">Productos</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <p>Todos los derechos reservados | Int Digital Solutions©</p>
+                </div>
+            </div>
+            <div>
+                <img src="/img/logo.png" alt="Int digital Solutions© logo" title="Logo de la empresa de Int Digital Solutions">
+            </div>
+        </div>
+        
+    </footer>
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id');
+
+
+    const jsonFilePath = 'productos.json';
+
+
+    async function cargarProductos() {
+      try {
+        const response = await fetch(jsonFilePath);
+        const data = await response.json();
+        mostrarDetallesProducto(data.productos);
+      } catch (error) {
+        console.error('Error al cargar el archivo JSON:', error);
+      }
+    }
+
+    
+    function mostrarDetallesProducto(productos) {
+      const producto = productos.find(p => p.id == productId);
+
+      if (producto) {
+        const detallesContainer = document.getElementById('producto-detalles');
+        detallesContainer.innerHTML = `
+        <div class="elementos">
+          <div>
+          <h2>${producto.nombre}</h2>
+          <p>${producto.descripcion}</p>
+          </div>
+          <img src="${producto.imagen}">
+          <!-- Agrega más detalles según sea necesario -->
+        </div>
+          `;
+      } else {
+        const detallesContainer = document.getElementById('producto-detalles');
+        detallesContainer.innerHTML = `
+        <div class="error">
+        <h1>Producto no encontrado</h1>
+        <a href="/index.html">Regresar a inicio</a>
+        </div>
+        `;
+      }
+    }
+
+    
+    cargarProductos();
+  </script>
+</body>
+</html>

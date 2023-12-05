@@ -261,6 +261,19 @@ header{
     align-items: center;
     
 }
+a.btn-producto {
+    width: 50px;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+a.btn-producto:visited{
+    text-decoration: none;
+}
 .producto button{
     margin-top: 30px;
     font-style: italic;
@@ -277,6 +290,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 10px 0px;
 }
 .producto i{
     font-size: larger;
@@ -365,7 +379,10 @@ header{
 }
 footer{
     text-align: center;
-    padding: 20px 0px;
+}
+footer img{
+    margin-top: 10px;
+    width: 60vh;
 }
 footer img:hover{
     border-radius: 10px;
@@ -381,13 +398,45 @@ footer img:hover{
     display: flex;
     flex-direction: row;
     padding-right: 9vh;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .linf li{
-    margin: 20px;
+    margin: 0px 10px;
     
 }
 .linf a{
     text-decoration: none;
     color: black;
+}
+.pagprod {
+    margin: 40px 10px;
+}
+.elementos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.fotsep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px;
+    flex-direction: column;
+}
+.error a{
+    text-decoration: none;
+    color: #0d192c;
+    transition: color 1s;
+}
+
+.error a:visited{
+    color: #105cd4;
+    text-decoration: none;
+    transition: color 1s;
 }
