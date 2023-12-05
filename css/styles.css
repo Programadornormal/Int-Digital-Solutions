@@ -69,7 +69,7 @@ header{
     text-align: center;
     width: 550px;
     margin: 50px 130px;
-    color: #ffffff; /* Texto blanco */
+    color: #ffffff; 
 }
 .imgs {
     display: flex;
@@ -178,7 +178,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .productos .t1:hover{
-    background-color:#FF3131; /* Nuevo color de fondo al hacer hover (azul claro) */
+    background-color:#FF3131; 
     color: #ffffff;
 }
 .prcontt .i1{
@@ -198,7 +198,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .productos .t2:hover{
-    background-color:#FFDE05; /* Nuevo color de fondo al hacer hover (azul claro) */
+    background-color:#FFDE05; 
     color: #ffffff;
 }
 .prcontt .i2{
@@ -218,7 +218,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .productos .t3:hover{
-    background-color:#00BF63; /* Nuevo color de fondo al hacer hover (azul claro) */
+    background-color:#00BF63; 
     color: #ffffff;
 }
 .prcontt .i3{
@@ -238,7 +238,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .productos .t4:hover{
-    background-color:#0097B2; /* Nuevo color de fondo al hacer hover (azul claro) */
+    background-color:#0097B2; 
     color: #ffffff;
 }
 .prcontt .i4{
