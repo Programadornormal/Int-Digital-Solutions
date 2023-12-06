@@ -157,7 +157,7 @@
             </div>
         </div>
         <div class="form">
-            <form>
+            <form action="https://formsubmit.co/f84701be2c6dd46412214c33ba0a53d2" method="POST">
                 <h2>Ingresa tus datos</h2>
                 <label for="nombre">Nombre completo</label>
                 <input type="text" required name="nombre" placeholder="Nombre completo">
@@ -165,7 +165,9 @@
                 <input type="email" name="email" required placeholder="Correo@example.com">
                 <label for="mensaje">Mensaje</label>
                 <textarea maxlength="250" name="mensaje" required placeholder="Ingresa tu mensaje"></textarea>
-                <button type="submit">Enviar Mensaje</button>
+                <input class="btn-enviar" type="submit">
+                <input type="hidden" name="_next" value="http://intdigitalsolutions.hopto.org">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </div>
