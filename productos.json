@@ -4,28 +4,32 @@
        "nombre": "Control Total desde tu bolsillo con MyHouseOS",
         "descripcion": "Transforma tu hogar en un espacio inteligente y eficiente con nuestro innovador software de domótica. Diseñado para brindarte el máximo control y comodidad, nuestra solución de vanguardia permite la automatización completa de tu casa, todo al alcance de tu mano a través de tu teléfono móvil mediante la tecnología Bluetooth.",
          "precio": 19.99,
-        "imagen": "<img class='prodim1' src='/img/myhomeos.jpeg'>" },
+        "imagen": "<img class='prodim1' src='/img/myhomeos.jpeg'>",
+        "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"},
       
       
          { "id": 2,
        "nombre": "Desarrollo de Software Personalizado",
         "descripcion": "En la era digital actual, la creación de software a medida es esencial para aquellos que buscan llevar sus proyectos y visiones al siguiente nivel. Nuestro servicio de desarrollo de software no solo se trata de codificar líneas de código, sino de convertir tus conceptos en soluciones tecnológicas innovadoras. Tanto si necesitas una presencia online sólida a través de una página web como si buscas llegar a tus clientes a través de una aplicación móvil, nuestro equipo de expertos está listo para dar vida a tus ideas.",
          "precio": 29.99,
-          "imagen": "<img class='prodim2' src='/img/software.png'>" },
+          "imagen": "<img class='prodim2' src='/img/software.png'>",
+          "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"},
      
      
           { "id": 3,
        "nombre": "Equipando a los Entusiastas y Profesionales con las Mejores Herramientas",
         "descripcion": "Ya sea que estés construyendo tu propia estación de trabajo, reparando dispositivos electrónicos o embarcándote en proyectos DIY, nuestra tienda de electrónica es tu socio confiable. Explora nuestras herramientas, descubre nuevas posibilidades y únete a la emocionante revolución electrónica. ¡Tu próximo proyecto empieza aquí!",
          "precio": 39.99,
-         "imagen": "<img class='prodim3' src='/img/venta.png'>" },
+         "imagen": "<img class='prodim3' src='/img/venta.png'>",
+          "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"},
       
       
          { "id": 4,
        "nombre": "Restaura la Vida de tus Dispositivos Electrónicos",
         "descripcion": "En un mundo donde la tecnología es parte integral de nuestra vida cotidiana, entendemos la importancia de mantener tus dispositivos electrónicos en óptimo estado. Nuestro servicio de reparación y mantenimiento de equipos electrónicos está diseñado para ofrecer soluciones rápidas, confiables y asequibles, brindándote la tranquilidad de que tus dispositivos favoritos están en manos expertas.",
         "precio": 49.99,
-        "imagen": "<img class='prodim4' src='/img/reparacion.png'>" }
+        "imagen": "<img class='prodim4' src='/img/reparacion.png'>",
+        "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"}
     ]
   }
   

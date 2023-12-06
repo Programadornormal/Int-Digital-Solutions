@@ -137,31 +137,34 @@
     <div id="contacto" class="contacto">
         <div class="titulo">
             <h1>Contactanos</h1>
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.917274707559!2d-104.89420071244238!3d21.51096000856591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273701a5c0e5cd%3A0xc317d45c083b2835!2sCentro%20Universitario%20ISIC!5e0!3m2!1ses!2smx!4v1701573219882!5m2!1ses!2smx"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            title="Ubicacion del local de Int Digital Solutions"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+            <div class="mapa">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.917274707559!2d-104.89420071244238!3d21.51096000856591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273701a5c0e5cd%3A0xc317d45c083b2835!2sCentro%20Universitario%20ISIC!5e0!3m2!1ses!2smx!4v1701573219882!5m2!1ses!2smx"
+                width="400"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                title="Ubicacion del local de Int Digital Solutions"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            
                       <div class="redes">
-                <a><i class="fa-brands fa-facebook fb"></i></a>
-                <a><i class="fa-brands fa-google gl"></i></a>
-                <a><i class="fa-brands fa-whatsapp wh"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61554243601842" target="_blank"><i class="fa-brands fa-facebook fb"></i></a>
+                <a href="mailto:intdigitalsolutions@gmail.com?subject=Solicito Informacion&body="><i class="fa-brands fa-google gl"></i></a>
+                <a href="https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20" target="_blank"><i class="fa-brands fa-whatsapp wh"></i></a>
             </div>
         </div>
         <div class="form">
             <form>
                 <h2>Ingresa tus datos</h2>
                 <label for="nombre">Nombre completo</label>
-                <input type="text" required placeholder="Nombre completo">
+                <input type="text" required name="nombre" placeholder="Nombre completo">
                 <label for="correo">Correo electronico</label>
-                <input type="email" required placeholder="Correo@example.com">
+                <input type="email" name="email" required placeholder="Correo@example.com">
                 <label for="mensaje">Mensaje</label>
-                <textarea maxlength="250" required placeholder="Ingresa tu mensaje"></textarea>
+                <textarea maxlength="250" name="mensaje" required placeholder="Ingresa tu mensaje"></textarea>
                 <button type="submit">Enviar Mensaje</button>
             </form>
         </div>

@@ -378,6 +378,7 @@ a.btn-producto:visited{
     color: #20d410;
     transition: font-size .5s, color .3s;
 }
+
 footer{
     text-align: center;
 }
@@ -460,4 +461,697 @@ footer img:hover{
 }
 .errorimg {
     width: 135px;
+}
+.btn-solicitar {
+    width: 126px;
+    height: 10px;
+    background: cornflowerblue;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 45%;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    transition: background-color .5s, color .5s;
+}
+.btn-solicitar:hover{
+    background-color: #012E40;
+    color: #fff;
+    transition: background-color .5s, color .5s;
+}
+/*Pantallas muy chicas, aqui empieza su diseño con mediaquery*/
+@media (min-width: 300px) and (max-width: 409px) {
+    *{
+        margin: 0px;
+        top: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    body, html { overflow-x:hidden; }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        position: sticky;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .menu img{
+        width: 20vh;
+        padding: 10px;
+    }
+    .menu ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20vh;
+        font-size: 15px;
+    }
+    .menu li{
+        margin: 10px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-fixed {
+        position:fixed;
+        z-index:1000;
+        top:0;
+        max-width:1000px;
+        width:100%;
+        box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }
+    .bienvenido{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        background-color: #012E40;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        color: #ffffff;
+        
+    
+    }
+    .bienvenido .b1{
+        text-align: center;
+        width: 350px;
+        color: #ffffff; 
+        
+    }
+    .imgs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .imgs img{
+        width: 200px;
+        margin: 10px 0px;
+    }
+    .imgs img:hover{
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+    .sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .titulo h2{
+        font-size: 30px;
+    }
+    .contenido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .contenido img{
+        width: 150px;
+    }
+    
+    .productos{
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .productos .contprod{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    .tarjetas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .tarjeta{
+        width: 40vh;
+        height: 40vh;
+        overflow: hidden;
+        margin: 30px;
+        border-radius: 10px;
+        color: #fff;
+    }
+    
+    .producto{
+        
+        height: 258px;
+        border-bottom-right-radius: 100%;
+        padding: 50px 30px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    a.btn-producto {
+        width: 50px;
+        background-color: greenyellow;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 20px 0px;
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+    a.btn-producto:visited{
+        text-decoration: none;
+    }
+    .producto button{
+        margin-top: 30px;
+        font-style: italic;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-style: none;
+    }
+    .prcontt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+    .producto i{
+        font-size: larger;
+        margin: 0px 10px;
+        text-align: center;
+    }
+    .contacto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px 0px;
+        padding: 50px;
+        background-color: #2a636d;
+        border-radius: 20px;
+        color: #ffffff;
+    }
+    .contacto h1{
+        margin-bottom: 50px;
+    }
+    .contacto label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .contacto input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .contacto textarea {
+        resize: none;
+        height: 130px;
+    }
+    .contacto button {
+        background-color: #4CAF50;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .redes{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#ffffff;
+        transition: font-size .5s, color .3s;
+    }
+    .redes a{
+        margin: 20px;
+    }
+    .contacto iframe{
+        width: 300px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer img{
+        margin-top: 10px;
+        width: 30vh;
+    }
+    footer img:hover{
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .linf{
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px;
+    }
+    .linf ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding-right: 9vh;
+        
+    }
+    .linf li{
+        margin: 0px 10px;
+        
+    }
+    .linf a{
+        text-decoration: none;
+        color: black;
+    }
+    .pagprod {
+        margin: 40px 10px;
+    }
+    .elementos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .fotsep{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .prodim1 {
+        width: 40vh;
+    }
+    .prodim2 {
+        width: 49vh;
+    }
+    .prodim3 {
+        width: 60vh;
+        padding: 0px 50px;
+    }
+    .prodim4 {
+        width: 60vh;
+        padding: 0px 70px;
+    }
+    .descripcion{
+        margin: 0px 50px;
+    }
+    .error {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 130px;
+        flex-direction: column;
+    }
+    .error a{
+        text-decoration: none;
+        color: #0d192c;
+        transition: color 1s;
+    }
+    
+    .error a:visited{
+        color: #105cd4;
+        text-decoration: none;
+        transition: color 1s;
+    }
+    .errorimg {
+        width: 135px;
+    }
+    .btn-solicitar {
+        width: 130px;
+        height: 10px;
+        background: cornflowerblue;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 30%;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
+        transition: background-color .5s, color .5s;
+    }
+    .btn-solicitar:hover{
+        background-color: #012E40;
+        color: #fff;
+        transition: background-color .5s, color .5s;
+    }
+}
+
+/*Pantallas muy chicas, aqui termina su diseño con mediaquery*/
+
+/*Pantallas muy medianas, aqui empieza su diseño con mediaquery*/
+@media (min-width: 410px) and (max-width: 510px) {
+    *{
+        margin: 0px;
+        top: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    body, html { overflow-x:hidden; }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        position: sticky;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .menu img{
+        width: 20vh;
+        padding: 10px;
+    }
+    .menu ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20vh;
+        font-size: 15px;
+    }
+    .menu li{
+        margin: 10px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-fixed {
+        position:fixed;
+        z-index:1000;
+        top:0;
+        max-width:1000px;
+        width:100%;
+        box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }
+    .bienvenido{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        background-color: #012E40;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        color: #ffffff;
+        
+    
+    }
+    .bienvenido .b1{
+        text-align: center;
+        width: 400px;
+        color: #ffffff; 
+        
+    }
+    .imgs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .imgs img{
+        width: 200px;
+        margin: 10px 0px;
+    }
+    .imgs img:hover{
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+    .sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .titulo h2{
+        font-size: 30px;
+    }
+    .contenido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .contenido img{
+        width: 150px;
+    }
+    
+    .productos{
+        margin: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .productos .contprod{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    .tarjetas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .tarjeta{
+        width: 40vh;
+        height: 40vh;
+        overflow: hidden;
+        margin: 30px;
+        border-radius: 10px;
+        color: #fff;
+    }
+    
+    .producto{
+        
+        height: 258px;
+        border-bottom-right-radius: 100%;
+        padding: 50px 30px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    a.btn-producto {
+        width: 50px;
+        background-color: greenyellow;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 20px 0px;
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+    a.btn-producto:visited{
+        text-decoration: none;
+    }
+    .producto button{
+        margin-top: 30px;
+        font-style: italic;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-style: none;
+    }
+    .prcontt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px 0px;
+    }
+    .producto i{
+        font-size: larger;
+        margin: 0px 10px;
+        text-align: center;
+    }
+    .contacto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px 0px;
+        padding: 40px;
+        background-color: #2a636d;
+        border-radius: 40px;
+        color: #ffffff;
+    }
+    .contacto h1{
+        margin-bottom: 50px;
+    }
+    .contacto label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .contacto input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .contacto textarea {
+        resize: none;
+        height: 130px;
+    }
+    .contacto button {
+        background-color: #4CAF50;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    footer img{
+        margin-top: 10px;
+        width: 30vh;
+    }
+    footer img:hover{
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .linf{
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px;
+    }
+    .linf ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding-right: 9vh;
+        margin: 10px 0px;
+    }
+    .linf li{
+        margin: 0px 10px;
+        
+    }
+    .linf a{
+        text-decoration: none;
+        color: black;
+    }
+    .pagprod {
+        margin: 40px 10px;
+    }
+    .elementos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .fotsep{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .prodim1 {
+        width: 40vh;
+    }
+    .prodim2 {
+        width: 49vh;
+    }
+    .prodim3 {
+        width: 60vh;
+        padding: 0px 50px;
+    }
+    .prodim4 {
+        width: 60vh;
+        padding: 0px 70px;
+    }
+    .descripcion{
+        margin: 0px 50px;
+    }
+    .error {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 130px;
+        flex-direction: column;
+    }
+    .error a{
+        text-decoration: none;
+        color: #0d192c;
+        transition: color 1s;
+    }
+    
+    .error a:visited{
+        color: #105cd4;
+        text-decoration: none;
+        transition: color 1s;
+    }
+    .errorimg {
+        width: 135px;
+    }
+    .btn-solicitar {
+        width: 130px;
+        height: 10px;
+        background: cornflowerblue;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 35%;
+        border-radius: 5px;
+        color: black;
+        text-decoration: none;
+        transition: background-color .5s, color .5s;
+    }
+    .btn-solicitar:hover{
+        background-color: #012E40;
+        color: #fff;
+        transition: background-color .5s, color .5s;
+    }
 }
