@@ -199,6 +199,10 @@ padding: 30px;
     width: 50vh;
 }
 .scan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
 .scan a{
