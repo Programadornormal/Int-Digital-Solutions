@@ -8,7 +8,7 @@
         "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"},
       
       
-         { "id": 2,
+         { "id": 2, 
        "nombre": "Desarrollo de Software Personalizado",
         "descripcion": "En la era digital actual, la creación de software a medida es esencial para aquellos que buscan llevar sus proyectos y visiones al siguiente nivel. Nuestro servicio de desarrollo de software no solo se trata de codificar líneas de código, sino de convertir tus conceptos en soluciones tecnológicas innovadoras. Tanto si necesitas una presencia online sólida a través de una página web como si buscas llegar a tus clientes a través de una aplicación móvil, nuestro equipo de expertos está listo para dar vida a tus ideas.",
          "precio": 29.99,
