@@ -3,8 +3,7 @@ const t2 = document.getElementById("t2");
 const t3 = document.getElementById("t3");
 const t4 = document.getElementById("t4");
 
-const navegacion = document.getElementById("links-menu");
-const menu = document.getElementById("menu");
+
 
 t1.addEventListener("click", function(){
     window.location = "/producto.html?id=1";

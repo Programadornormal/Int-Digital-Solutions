@@ -85,8 +85,9 @@ header{
     font-family: 'Poppins', sans-serif;
     height: calc(100vh - 50px);
     /* background-color: #012E40; */
-    background-image: url(/img/banner.png);
-    animation: ban 20s infinite linear;
+    background-image: url(/img/banner.jpg);
+    animation: ban 10s infinite linear;
+    background-repeat: no-repeat;
     animation-timing-function: ease-in;
     color: #ffffff;
     background-size: 100%;
@@ -94,10 +95,10 @@ header{
 }
 @keyframes ban {
     0%{
-        background-image: url(/img/banner.png);
+        background-image: url(/img/banner.jpg);
     }
     25%{
-        background-image: url(/img/banner.png);
+        background-image: url(/img/banner.jpg);
     }
     26%{
         background-image: url(/img/banner2.jpg);
@@ -644,15 +645,47 @@ footer img:hover{
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
         position: sticky;
         flex-direction: column;
+        height: 100px;
         background-color: #fff;
+        overflow: hidden;
     }
     .menu img{
-        width: 20vh;
+        width: 30vh;
         padding: 10px;
+    }
+    .secpadre{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .div-menu{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 10px;
+    }
+    .btn-menu{
+        margin: 0px 3rem;
+        outline: none;
+        border: #fff;
+        background-color: #fff;
+
+    }
+    .btn-menu1 {
+        margin: 0px 3rem;
+        outline: none;
+        border: #fff;
+        background-color: #fff;
+        display: none;
+    }
+
+    
+    .btn-menu, .btn-menu1 i{
+        font-size: 2rem;
+        color: #0d192c;
     }
     .menu ul{
         list-style: none;
-        display: flex;
         flex-direction: row;
         align-items: center;
         padding-left: 20vh;
@@ -673,24 +706,36 @@ footer img:hover{
         width:100%;
         box-shadow:0px 4px 3px rgba(0,0,0,.5);
     }
+    
     .bienvenido{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
         font-family: 'Poppins', sans-serif;
-        background-color: #012E40;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
+        height: calc(100vh - 50px);
+        /* background-color: #012E40; */
+        background-image: url(/img/banner.png);
+        animation: ban 20s infinite linear;
+        animation-timing-function: ease-in;
         color: #ffffff;
-        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     
     }
+    
     .bienvenido .b1{
         text-align: center;
-        width: 350px;
-        color: #ffffff; 
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 10px;
+        background-color: rgba(0, 22, 40, 0.8);
+        color: #ffffff;
     }
     .imgs {
         display: flex;
@@ -714,6 +759,35 @@ footer img:hover{
         flex-direction: column;
         margin: 10px 0px;
         text-align: center;
+    }
+    .mivi{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        background-image: url("/img/mivi.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        border-radius: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        margin: 50px 0px;  
+        
+    }
+    .misv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px; 
+    
+    }
+    .valores{
+        width: 200px;
+        padding: 30px;
     }
     .titulo h2{
         font-size: 30px;
@@ -894,8 +968,7 @@ footer img:hover{
         list-style: none;
         display: flex;
         flex-direction: row;
-        padding-right: 9vh;
-        
+        margin-left: 40px;
     }
     .linf li{
         margin: 0px 10px;
@@ -1009,13 +1082,13 @@ footer img:hover{
         flex-direction: column;
         height: 100px;
         background-color: #fff;
+        overflow: hidden;
     }
     .menu img{
         width: 30vh;
         padding: 10px;
     }
     .secpadre{
-        display: flex;
         display: flex;
         justify-content: space-between;
         align-content: center;
@@ -1048,7 +1121,6 @@ footer img:hover{
     }
     .menu ul{
         list-style: none;
-        display: none;
         flex-direction: row;
         align-items: center;
         padding-left: 20vh;
