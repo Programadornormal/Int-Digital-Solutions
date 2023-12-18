@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="chatbot">
+        <div class="header-chat">
+            <img src="img/ico.ico">
+            <h2>Chatea con DISO</h2>
+            <i id="cerrarayuda" class="fa fa-xmark"></i>
+        </div>
+        <div id="historial" class="historial">
+        </div>
+        <div id="bot-ini" class="bot-ini">
+            <img class="bot-img" src="/img/Hola!.png">
+            <h2 id="bot-txt">Hola, ¿En qué puedo ayudarte?</h2>
+            <div class="sec-input">
+                <button  name="info1" value="productos disponibles" id="info1"> Ver productos</button>
+                <button name="info2" value="presupuesto" id="info2"> Quiero un presupuesto</button>
+                <button name="info3" value="información" id="info3"> FAQ </button>
+                <button id="btncerrarChat" style="display: none;" name="cerrarChat" onclick="cerrarChat()">Limpiar chat</button>
+            </div>
+        </div>
+        <div class="footer-chat" style="visibility: hidden;">
+            <h5>¿En qué más puedo ayudarte hoy?</h5>
+            <div class="sec-input">
+                <button  name="info1" value="productos disponibles" id="info1"> Ver productos disponibles</button>
+                <button name="info2" value="presupuesto" id="info2"> Quiero un presupuesto</button>
+                <button name="info3" value="información" id="info3"> Sobre los productos</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/bot.js"></script>
+    <script src="https://kit.fontawesome.com/083105b3ce.js" crossorigin="anonymous"></script>
+</body>
+</html>
