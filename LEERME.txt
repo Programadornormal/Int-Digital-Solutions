@@ -1,3 +1,12 @@
 si van a hacer un cambio comenten donde y que fue porfa D:
 SE AÑADIO PARA VARIAS PANTALLAS LO QUE ES RESPONSIVE
 el formulario parece funcionar
+var hola = ["buenas ", "tardes ", "a ",  "todos "]; // assuming this is your array
+var adios = '';
+for (let i = 0; i < hola.length; i++) {
+    setTimeout(function() {
+        adios += hola[i];
+        const prueba = document.getElementById("hola");
+        prueba.innerHTML =  `<p>${adios}</p>`;
+    }, i * 200); // waits for i seconds before adding the next letter
+}

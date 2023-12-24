@@ -1,13 +1,14 @@
 const fechaCopy = document.getElementById("fecha");
 const btnMenu = document.getElementById("btn-menu");
 const btnMenu1 = document.getElementById("btn-menu1");
-const btnAyuda  =document.getElementById("headerBot");
+const btnAyuda = document.getElementById("headerBot");
 const btncerrarAyuda = document.getElementById("cerrarayuda");
 const cajaAyuda = document.getElementById("chatbot");
 const btnabrirAyuda = document.getElementById("btnabrirAyuda");
 const btnInfo1  = document.getElementById("info1");
 const btnInfo2  = document.getElementById("info2");
 const btnInfo3  = document.getElementById("info3");
+const menuHeader = document.getElementById("menu");
 const btnInfo4  = document.getElementById("info4");
 const cajaMensajes = document.getElementById("mensajes");
 const bntAyudasend  = document.getElementById("btn-ayuda");
@@ -17,17 +18,19 @@ var añoActual = new Date();
 console.log(añoActual.getFullYear());
 fechaCopy.innerHTML = `<p>Todos los derechos resevados |&copy;${añoActual.getFullYear()} Int Digital Solutions</p>`;
 btnMenu.addEventListener("click", function(){
-    menu.style.height = '180px';
-    menu.style.transition = 'height .5s';
-    btnMenu.style.display = 'none';
-    btnMenu1.style.display = 'block';
-    
-})
+        menuHeader.classList.remove('slideMenudown');
+        menuHeader.classList.add('slideMenuup');
+        btnMenu1.style.display = 'block';
+        btnMenu.style.display = 'none';
+        numMenu = 1;
+   
+});
 btnMenu1.addEventListener("click", function(){
-    //navegacion.style.display = 'none';
-    menu.style.height = '100px';
-    btnMenu.style.display = 'block';
-    btnMenu1.style.display = 'none'
+    menuHeader.classList.add('slideMenudown');
+    menuHeader.classList.remove('slideMenuup');
+    btnMenu.style.display = '';
+    numMenu = 0;
+    btnMenu1.style.display = 'none';
     
 });
 
@@ -35,20 +38,39 @@ function scrollarriba() {
 	var seccionInicio = document.getElementById('bienvenido');
 	seccionInicio.scrollIntoView({ behavior: 'smooth' });
 }
-
-btnAyuda.addEventListener("click", function(){
-    if(cajaAyuda.style.top === "90%"){
-        cajaAyuda.style.display = 'flex';
-        cajaAyuda.style.top = "20%"
-        cajaAyuda.style.animation = 'cr 1s forwards';
-        btncerrarAyuda.style.display = '';
-        btnabrirAyuda.style.display = 'none';
-    }else{
-        cajaAyuda.style.top = "90%"
-        cajaAyuda.style.animation = 'crc .7s forwards';
+/*let operandoSuma = 0;*/
+btnabrirAyuda.addEventListener("click", function(){
+        
+    /*if (cajaAyuda.style.transform === "translateY(580px)") {*/
+        //if(operandoSuma === 0){
+            cajaAyuda.style.display = '';
+            //cajaAyuda.classList.remove('slideDown');
+            //cajaAyuda.classList.add('slideUp');
+            btncerrarAyuda.style.display = '';
+            btnabrirAyuda.style.display = 'none';
+btncerrarAyuda.addEventListener("click", function(){
+            //cajaAyuda.classList.add('slideDown');
+            //cajaAyuda.classList.remove('slideUp');
+            cajaAyuda.style.display = 'none';
+            btnabrirAyuda.style.display = '';
+            operandoSuma = 0;
+            btncerrarAyuda.style.display = 'none';
+})
+            //operandoSuma = 1;
+      /*  }else{
+            cajaAyuda.classList.add('slideDown');
+            cajaAyuda.classList.remove('slideUp');
+            btnabrirAyuda.style.display = '';
+            operandoSuma = 0;
+            btncerrarAyuda.style.display = 'none';
+        }*/
+        
+   /* } else {
+        cajaAyuda.classList.remove('slideUp');
+        cajaAyuda.classList.add('slideDown');
         btnabrirAyuda.style.display = '';
-        btncerrarAyuda.style.display = 'none';
-    }
+        btncerrarAyuda.style.display = 'none'; 
+    }*/
 
 });
 /*

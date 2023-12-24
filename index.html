@@ -11,8 +11,9 @@
     <meta name="author" content="Int Digital Solutions©">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#105cd4" />
-    <link rel="icon" href="/img/ico.ico" sizes="16*16">
+    <link rel="icon" type="image/x-icon" href="/img/ico.ico">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/resp.css">
     
     <title>Int Digital | Automatiza, Simplifica y Vive</title>
 </head>
@@ -47,35 +48,36 @@
         </div>
     
     <div id="bienvenido" class="bienvenido">
-        
-        <div class="b1">
-            <h1>IntDigital Solutions</h1>
-            <p> No solo automatizamos tu hogar, sino que simplificamos tu vida diaria. Con nuestras soluciones innovadoras, te invitamos a vivir una experiencia única donde la tecnología y la comodidad se fusionan para crear un entorno que se adapta a ti.
-            </p>
-            <p class="lema">¡Automatiza, simplifica y vive con Int Digital Solutions!</p> <!--añadir negritas al lema y salto de linea-->
-            <div class="arrow">
-                <a onclick="scrollabajo()"><p>Conoce más</p>
-                <i class="fa-solid fa-circle-chevron-down"></i></a>
+        <div class="__fondocolor">
+            <div class="first-container">
+                <div id="hola" class="bien1">
+                    <h1>IntDigital Solutions</h1>
+                    <p class="lema">¡Automatiza, simplifica y vive con Int Digital Solutions!</p> <!--añadir negritas al lema y salto de linea-->
+                </div>
+                <div class="bien2">
+                    <p>Soluciones Digitales al alcance de tu mano, ofrecemos los mejores servicios de domótica y tecnología.</p>
+                    <div class="arrow">
+                        <a onclick="scrollabajo()"><p>Conoce más</p>
+                        <i class="fa-solid fa-circle-chevron-down"></i></a>
+                    </div>
+                </div>
             </div>
+           
             
             <!--fondo gris en productos-->
         </div>
         
     </div>
-    <div class="btn-flotantes">
-        <div onclick="scrollarriba()" class="btn-scroll">
-            <div>
-                <i class="fa-solid fa-arrow-up"></i>
-            </div>
-        </div>
+    <div id="btnabrirAyuda" class="btn-flotantes">
+        <i  class="fa-solid fa-question"></i>
         
     </div>
-
-    <div style="top: 90%;" id="chatbot" class="chatbot" >
+    
+   
+    <div style="display: none;" id="chatbot" class="chatbot" >
         <div id="headerBot" class="header-chat">
             <img src="img/ico.ico">
             <h2>Chatea con DISO</h2>
-            <i id="btnabrirAyuda" class="fa-solid fa-question"></i>
             <i style="display: none;" id="cerrarayuda" class="fa fa-xmark"></i>
         </div>
         <div id="historial" class="historial">
@@ -99,27 +101,7 @@
             </div>
         </div>
     </div>
-    <!--
-        <div id="bot" class="chat-bot" style="display: none;" >
-            <div class="h2-ayuda">
-                <h2 class="txt-ayuda">DISO Te ayuda</h2>
-                <i id="cerrarayuda" class="fa-solid fa-xmark"></i>
-            </div>
-            
-            <div id="mensajes" class="mensajes"></div>
-            <div class="input-btn">
-                <p>Dinos en que podemos ayudarte</p>
-                <div id="inputs" class="sec-input">
-                    <button  name="info1" value="productos disponibles" id="info1"> Ver productos disponibles</button>
-                    <button name="info2" value="presupuesto" id="info2"> Quiero un presupuesto</button>
-                    <button name="info3" value="representante" id="info3"> Hablar con un representante</button>
-                    
-                </div>
-               <input placeholder="¿En qué podemos ayudarte?" name="in-ayuda" id="in-ayuda">
-                <button id="btn-ayuda" type="submit">Enviar</button>
-            </div>
-        </div>
-    -->
+    
     
     <div id="productos" class="productos">
         <div class="titulo">
@@ -284,19 +266,18 @@
                     </ul>
                 </div>
                 
-                <div id="fecha" class="fecha">
-                </div>
+                
             </div>
-            <div>
-                <img src="/img/logo.png" alt="Int digital Solutions© logo" title="Logo de la empresa de Int Digital Solutions">
+            <div id="fecha" class="fecha">
             </div>
+            
         </div>
     </footer>
     <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
     <script src="https://kit.fontawesome.com/083105b3ce.js" crossorigin="anonymous"></script>
    <script src="/js/Main.js"></script>
    <script src="/js/scripts.js"></script>
-   <script src="/bot.js"></script>
+   <script src="/js/bot.js"></script>
 </body>
 <!--<footer>Todos los derechos reservados | Int Digital Solutions©</footer>-->
 </html>
