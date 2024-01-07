@@ -18,7 +18,7 @@
      
           { "id": 3,
        "nombre": "Equipando a los Entusiastas y Profesionales con las Mejores Herramientas",
-        "descripcion": "Ya sea que estés construyendo tu propia estación de trabajo, reparando dispositivos electrónicos o embarcándote en proyectos DIY, nuestra tienda de electrónica es tu socio confiable. Explora nuestras herramientas, descubre nuevas posibilidades y únete a la emocionante revolución electrónica. ¡Tu próximo proyecto empieza aquí!",
+                "descripcion": "Ya sea que estés construyendo tu propia estación de trabajo, reparando dispositivos o embarcándote en proyectos DIY, nuestra tienda de electrónica es tu socio confiable. Explora nuestras herramientas, descubre nuevas posibilidades y únete a la emocionante revolución electrónica. ¡Tu próximo proyecto empieza aquí!",
          "precio": 39.99,
          "imagen": "<img class='prodim3' src='/img/venta.png'>",
           "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"},

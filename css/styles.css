@@ -20,7 +20,9 @@ header{
     width: 100%;
     /*font-family: 'Poppins', sans-serif;*/
 }
-
+.misv>h2 {
+    margin: 0px auto;
+}
 .menu{
     display: flex;
     justify-content: space-between;
@@ -87,9 +89,9 @@ header{
     height: calc(100vh - 5px);
     /* background-color: #012E40; */
     background-image: url(/img/banner.jpg);
-    animation: ban 10s infinite linear;
+    animation: ban 20s infinite linear;
     background-repeat: no-repeat;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
     color: #ffffff;
     background-size: 100%;
 }
