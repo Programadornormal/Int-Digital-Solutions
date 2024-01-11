@@ -17,7 +17,7 @@ const menu = document.getElementById("menu");
 var añoActual = new Date();
 console.log(añoActual.getFullYear());
 fechaCopy.innerHTML = `<p>Todos los derechos resevados |&copy;${añoActual.getFullYear()} Int Digital Solutions</p>`;
-btnMenu.addEventListener("click", function(){
+/*btnMenu.addEventListener("click", function(){
         menuHeader.classList.remove('slideMenudown');
         menuHeader.classList.add('slideMenuup');
         btnMenu1.style.display = 'block';
@@ -32,12 +32,12 @@ btnMenu1.addEventListener("click", function(){
     numMenu = 0;
     btnMenu1.style.display = 'none';
     
-});
+});*/
 
-function scrollarriba() {
+/*function scrollarriba() {
 	var seccionInicio = document.getElementById('bienvenido');
 	seccionInicio.scrollIntoView({ behavior: 'smooth' });
-}
+}*/
 /*let operandoSuma = 0;*/
 btnabrirAyuda.addEventListener("click", function(){
         

@@ -30,6 +30,58 @@
         "precio": 49.99,
         "imagen": "<img class='prodim4' src='/img/reparacion.png'>",
         "boton": "<a class='btn-solicitar' target='_blank' href='https://wa.me/523231292531?text=Buen%20día,%20me%20gustaría%20más%20información.%20'>Cotizar aquí</a>"}
+    ],
+    "objeto":[
+      {
+        "id": 1,
+        "imagen": "<img src='/img/myhomeos.jpeg' alt='productox'>",
+        "nombre": "MYhouseOS",
+        "descripcion": "<ul class='desc_camaras'><li>Haz tu hogar inteligente</li> <li>Compatible con Android, IOS y Windows</li> <li>Garantia 3 años</li></ul>",
+        "precio": "¡Próximamente!",
+       "boton": "<a onclick=\"mostrarcaja('domotica')\" class='btn_comprar' href='#'>Notifícame</a>" 
+      },
+      {
+        "id": 2,
+        "imagen": "<img src='/img/pc.png' alt='productox'>",
+        "nombre": "Armado de PC",
+        "descripcion": "<ul class='desc_camaras'><li>Armado completo de PC´s</li> <li>Envío a domicilio</li> <li>Garantia 1 año</li></ul>",
+        "precio": "¡Cótiza Ya!",
+       "boton": "<a class='btn_comprar' href='#'>LLámame</a>" 
+      },
+      {
+        "id": 3,
+        "imagen": "<img src='/img/reparacion.png' alt='productox'>",
+        "nombre": "Reparación de dispositivos",
+        "descripcion": "<ul class='desc_camaras'><li>Teléfonos, tablets, computadoras</li> <li>Piezas originales</li> <li>Garantia 3 meses</li></ul>",
+        "precio": "¡Cótiza Ya!",
+       "boton": "<a class='btn_comprar' href='#'>LLámame</a>" 
+      },
+      {
+        "id": 4,
+        "imagen": "<img src='/img/CAMARAS.webp' alt='productox'>",
+        "nombre": "Kit CCTV starter",
+        "precio": "Desde $4500 M.N",
+        "descripcion": "<ul class='desc_camaras'><li>4 cámaras 2mpxs</li> <li>DVR 500gb</li> <li>Garantia 6 meses</li></ul>",
+        "boton": "<a class='btn_comprar' href='#'>LLámame</a>" 
+      },
+      {
+        "id": 5,
+        "imagen": "<img src='/img/CAMARAS.webp' alt='productox'>",
+        "nombre": "Kit CCTV sofisticado",
+        "descripcion": "<ul class='desc_camaras'><li>6-8 Cámaras 4mpxs FullHD</li> <li>DVR 1TB</li> <li>Garantia 1 año</li></ul>",
+        "precio": "Desde $6500 M.N",
+       "boton": "<a class='btn_comprar' href='#'>LLámame</a>" 
+      },
+      {
+        "id": 6,
+        "imagen": "<img src='/img/CAMARAS.webp' alt='productox'>",
+        "nombre": "Kit CCTV seguro",
+        "descripcion": "<ul class='desc_camaras'><li>Kit de 16 cámaras</li> <li>DVR 2TB</li> <li>Garantia 3 años</li></ul>",
+        "precio": "Desde $10000 M.N",
+       "boton": "<a class='btn_comprar' href='#'>LLámame</a>" 
+      }
     ]
+
+
   }
   

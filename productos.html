@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+        <meta name="description" content="Automatiza, simplifica y vive con las soluciones innovadoras de Int Digital Solutions. Desarrollo de tecnología y domótica para tu hogar.">
+        <meta name="keywords" content="Int Digital Solutions, domótica, casa inteligente,desarrollo, web, desarrollo web, desarrollo android, android, aplicaciones moviles, reparaciones, intdiso, DISO, diso, tecnología, hogar inteligente, casa automatizada, automatización, casas inteligentes, domotica, casas, videovigilancia, alarmas, computo, TI, seguridad, asistencia, google assistant, redes, cableado estructurado,  automatización, software, asistencia técnica, alexa, ahorro de energia, ahorro, energía, venta de computo, camaras, CCTV, armado de computadoras, pc gamer, software, venta de software, venta de hardware, hardware, software">
+        <meta name="author" content="Int Digital Solutions©">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="theme-color" content="#105cd4" />
+        <script src="https://kit.fontawesome.com/083105b3ce.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/img/ico.ico">
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!--<link rel="stylesheet" href="/css/resp.css">-->
+        
+        <title>Int Digital | Automatiza, Simplifica y Vive</title>
+    </head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html"><img src="/img/logo.png" alt="INT DIGITAL SOLUTIONS"></a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li ><a href="/index.html">Inicio</a></li>
+                <li ><a href="/productos.html">Productos</a></li>
+                <li ><a href="/index.html#sobre">Sobre nosotros</a></li>
+                <li ><a href="/index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="/productos.html" class="btn_sesion disabled">Iniciar Sesión</a>
+    </header>
+<div id="menu-flotante" class="menu-flotante">
+    <nav class="nav-links-flotante">
+        <ul>
+            <li ><a href="/index.html">Inicio</a></li>
+            <li ><a href="/productos.html">Productos</a></li>
+            <li ><a href="/index.html#sobre">Sobre nosotros</a></li>
+            <li ><a href="/index.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <div class="head-productos"> 
+       <h1>Productos y servicios disponibles.</h1>
+       <h4>Grandes servicios con buenos precios, cótiza cualquiera.</h4>
+    </div>
+    <div style="display: none;"  id="cajaflotante" class="caja-num">
+        <form action="/correo-contacto.php" method="POST">
+            <h2>Ingresa tu numero de teléfono o correo</h2>
+            <p>Ingresa un numero de telefono o correo email para podernos contactar contigo lo más breve posible.</p>
+            <input name="contacto" placeholder="Información aquí" type="text">
+            <div class="btn-group">
+                <button id="enviar" class="btn-contacto" type="submit">Enviar</button>
+            
+        </form>
+            <button onclick="ocultarcaja()" class="btn-cancelar">Cancelar</button>
+            </div>
+            
+        
+    </div>
+    <h2 class="product">Productos</h2>
+    <div id="contenido-productos" class="contenido-productos"></div>
+   
+    <footer class="footer">
+        <div class="ftr-mbl">
+        <div class="footer-links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/productos.html">Productos</a></li>
+                <li><a href="/index.html#sobre">Sobre Nosotros</a></li>
+                <li><a href="/index.html#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="cuentas">
+            <h3>Síguenos o contáctanos</h3>
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61554243601842&sk=about"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="mailto:ventas@intdiso.com?Subject=Hola,%20me%20gustaría%20contáctarme%20con%20ustedes."><i class="fa-brands fa-google"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a target="_blank" href="https://api.whatsapp.com/send?phone=3112257046&text=Hola, Nececito mas informacion!"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+            <div id="fecha" class="fecha">
+            </div>
+        </div></div>
+        <a href="/index.html"><img src="/img/logo.png" alt="INT DIGITAL SOLUTIONS"></a>
+    </footer>
+    <script src="/select.js"></script>
+    <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/contacto.js"></script>
+    
+</body>
+</html> 
